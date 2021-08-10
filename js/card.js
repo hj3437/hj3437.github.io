@@ -43,7 +43,7 @@ cardSelectorTags.forEach((tag) => {
 
 function changeProjectText(initText, spiltText) {
     const splitedText = spiltText.split(', ');
-    let displayText = `\n${initText}\n`
+    let displayText = `${initText}\n`
     splitedText.forEach((text) => {
         displayText += text.trim() + "\n"
     })

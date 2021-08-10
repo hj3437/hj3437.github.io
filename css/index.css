@@ -26,12 +26,15 @@
 .dark-category-blue {
     background-color: rgba(0, 120, 223, .8) !important;
 }
+
 .dark-category-pink {
     background-color: rgba(221, 0, 129, .8) !important;
 }
+
 .dark-category-purple {
     background-color: rgba(103, 36, 222, .8) !important;
 }
+
 .dark-category-basic {
     background-color: rgba(233, 168, 0, .8) !important;
 }
@@ -68,11 +71,21 @@ header {
     padding: 0 16px;
 }
 
-.header-wrap .dark-mode {
+.header-wrap .menu-wrap ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-wrap .dark-mode, .header-wrap .menu {
     display: block;
     width: var(--size-icon-min);
     height: var(--size-icon-min);
     text-align: center;
+}
+
+.header-wrap .menu {
+    display: none;
 }
 
 .header-wrap .dark-mode:hover {
@@ -177,7 +190,7 @@ main .content-wrap h3 {
 }
 
 #project .content ol .card:nth-child(2) {
-    display: none;    
+    display: none;
 }
 
 #project .content ol .card:nth-child(2) p {
@@ -258,4 +271,75 @@ main .content-wrap h3 {
 footer {
     margin-top: 96px;
     padding-bottom: var(--margin-main-content-split);
+}
+
+@media screen and (max-width: 760px) {
+    html, body {
+        width: 100%;
+        padding: 8px;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    header .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header .header-wrap {
+        width: 100%;
+    }
+
+    header .header-wrap nav {
+        display: none;
+    }
+
+    .header-wrap .dark-mode {
+        display: none;
+    }
+
+    .header-wrap .menu {
+        display: block;
+    }
+
+    #profile .content {
+        flex-wrap: wrap;
+    }
+
+    main .content-wrap {
+        margin-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    main .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #project .content ol {
+        flex-wrap: wrap;
+    }
+
+    #project .content ol .card {
+        width: 100%;
+    }
+    #project .content ol .card:first-child {
+        margin-right: 0;
+    }
+
+    #project .content ol .card:nth-child(2) {
+        margin-top: 16px;
+        height: 100%;
+    }
+
+    #project .content ol .history .work-category li {
+        margin-top: 4px;
+    }
+
+    footer {
+        margin-top: 16px;
+        padding-bottom: 0;
+    }
 }
