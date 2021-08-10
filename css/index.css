@@ -18,6 +18,24 @@
     --size-icon-min: 48px;
 }
 
+.dark-card {
+    border: 2px solid rgba(27, 136, 209, 0.6);
+    box-shadow: none !important;
+}
+
+.dark-category-blue {
+    background-color: rgba(0, 120, 223, .8) !important;
+}
+.dark-category-pink {
+    background-color: rgba(221, 0, 129, .8) !important;
+}
+.dark-category-purple {
+    background-color: rgba(103, 36, 222, .8) !important;
+}
+.dark-category-basic {
+    background-color: rgba(233, 168, 0, .8) !important;
+}
+
 .container {
     width: 900px;
     margin: 0 auto;
@@ -221,7 +239,7 @@ main .content-wrap h3 {
 }
 
 #project .content ol .history .work-category li:nth-child(7) {
-    background-color: (233, 168, 0, 0.2);
+    background-color: rgba(233, 168, 0, 0.2);
 }
 
 #skill .content li {
