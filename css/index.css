@@ -138,8 +138,65 @@ main .content-wrap h3 {
     text-decoration: underline;
 }
 
-#project .content ol li a {
+#project .content ol .card {
+    width: 340px;
+    height: 480px;
+    box-shadow: 0px 5px 15px 0px rgb(153 153 153 / 50%);
+    border-radius: 4px;
+}
+
+#project .content ol .thumbnail img {
+    width: 100%;
+}
+
+#project .content ol span {
+    padding: 0 8px;
+}
+
+#project .content ol .title {
+    display: inline-block;
     text-decoration: underline;
+    padding: 8px 0px;
+}
+
+#project .content ol .history p {
+    margin: 4px 0;
+    padding: 4px 8px;
+}
+
+#project .content ol .history p:hover {
+    background-color: rgba(45,170,219,.3);    
+    color: darkblue;
+    font-weight: 700;
+}
+
+#project .content ol .history .category ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#project .content ol .history .category li {
+    margin-left: 8px;
+    font-size: 12px;
+    color: #444;
+    border: none;    
+    padding: 2px;
+    border-radius: 4px;    
+    background-color: rgba(0, 120, 223, 0.2);
+}
+
+#project .content ol .history .category li:nth-child(3),
+#project .content ol .history .category li:nth-child(4),
+#project .content ol .history .category li:nth-child(5){
+    background-color: rgba(221, 0, 129, 0.2);
+}
+
+#project .content ol .history .category li:nth-child(6){
+    background-color: rgba(103, 36, 222, 0.2);
+}
+
+#project .content ol .history .category li:nth-child(7) {
+    background-color: (233, 168, 0, 0.2);
 }
 
 #skill .content li {
