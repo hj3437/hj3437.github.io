@@ -66,6 +66,11 @@ header {
     font-family: 'Noto Sans KR', 'Nanum Gothic', sans-serif;
 }
 
+.header-wrap nav li:hover {
+    color: #444;
+    font-weight: 700;
+}
+
 .header-wrap nav li a {
     display: block;
     padding: 0 16px;
