@@ -9,7 +9,7 @@ const projectContents = {
         date: "2021.07.05 ~ 2021.07.30",
         dateDetail: "1주차: 기관 협의, 2주차: 호스팅/CMS 결정 및 개발 진행, 3주차: 개발 진행, 4주차: 프로젝트 마무리",
         team: "4인 팀프로젝트",
-        teamDetail: "• 4인 팀프로젝트 • MS 팀즈, • 카카오톡 오픈채팅",
+        teamDetail: "• 4인 팀프로젝트, • MS 팀즈, • 카카오톡 오픈채팅",
         area: "",
         areaDetail: "• Training(게시판), • 소식(게시판), • 게시판(공지사항/문의하기 등)",
         contents: "",
