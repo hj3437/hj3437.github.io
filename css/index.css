@@ -306,7 +306,7 @@ footer {
     }
 
     .header-wrap .menu {
-        display: block;
+        /* display: block; */
     }
 
     #profile .content {
